@@ -1,11 +1,11 @@
 Name:       haze-acounts-extensions-skypeweb
 
 Summary:    Extensions plugins for Telepathy Haze library Skypweb
-Version:    0.2.0
+Version:    0.1
 Release:    1
 Group:      System/Application
 License:    GPL3
-Source0:    %{name}-%{version}.tar.gz
+Source0:    https://github.com/Thaodan/haze-acounts-extensions-skypeweb/archive/v%{Version}.tar.gz
 Requires:   libpurple
 Requires:   telepathy-haze
 Requires:   jolla-settings-accounts >= 0.2.27
