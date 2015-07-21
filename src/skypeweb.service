@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service id="skypeweb">
+    <type>IM</type>
+    <provider>skypeweb</provider>
+    <name>Skype IM</name>
+    <icon>image://theme/icon-m-chat</icon>
+
+    <template>
+        <group name="telepathy">
+            <setting name="manager">haze</setting>
+            <setting name="protocol">skypeweb</setting>
+            <setting name="ConnectAutomatically" type="b">true</setting>
+            <setting name="param-resource">Jolla</setting>
+        </group>
+
+        <group name="auth">
+            <setting name="method">password</setting>
+            <setting name="mechanism">password</setting>
+        </group>
+    </template>
+</service>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE provider>
+<provider version="1.0" id="skypeweb">
+    <name>Skype</name>
+    <description>Skype account provider</description>
+    <icon>file:///usr/share/haze-accounts-extensions/icons/graphic-service-skype.png</icon>
+</provider>
