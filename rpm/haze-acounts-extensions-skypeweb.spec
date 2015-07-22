@@ -9,7 +9,7 @@ Source0:    https://github.com/Thaodan/haze-acounts-extensions-skypeweb/archive/
 Requires:   libpurple
 Requires:   telepathy-haze
 Requires:   jolla-settings-accounts >= 0.2.27
-Requires:   libpurple-skypeweb
+Requires:   purple-skypeweb
 BuildArch:  noarch
 
 %description
