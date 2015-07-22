@@ -1,4 +1,4 @@
-Name:       haze-acounts-extensions-skypeweb
+Name:       haze-accounts-extensions-skypeweb
 
 Summary:    Extensions plugins for Telepathy Haze library Skypweb
 Version:    0.1
