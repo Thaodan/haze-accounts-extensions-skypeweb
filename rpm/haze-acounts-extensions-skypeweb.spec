@@ -44,7 +44,7 @@ install -m 644 src/skypeweb.provider %{buildroot}%{_datadir}/accounts/providers
 install -m 644 src/skypeweb.service %{buildroot}%{_datadir}/accounts/services
 install -m 644 src/skype.qml %{buildroot}%{_datadir}/accounts/ui
 install -m 644 src/skype-settings.qml %{buildroot}%{_datadir}/accounts/ui
-install -m 644 src/skpyweb-update.qml %{buildroot}%{_datadir}/accounts/ui
+install -m 644 src/skypeweb-update.qml %{buildroot}%{_datadir}/accounts/ui
 install -m 644 src/SkypeCommon.qml %{buildroot}%{_datadir}/accounts/ui
 install -m 644 src/SkypeSettingsDisplay.qml %{buildroot}%{_datadir}/accounts/ui
 
