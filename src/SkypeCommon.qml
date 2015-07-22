@@ -17,7 +17,6 @@ Column {
     TextField {
         id: usernameField
         width: parent.width
-        inputMethodHints: Qt.ImhDigitsOnly
         errorHighlight: !text && acceptAttempted
 
         //: Placeholder text for XMPP username
