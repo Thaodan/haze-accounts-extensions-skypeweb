@@ -76,10 +76,6 @@ AccountCreationAgent {
 
         function beginCreation() {
             var configuration = {}
-            if (settings.server != "")
-                configuration["telepathy/param-server"] = settings.server
-            if (settings.port != "")
-                configuration["telepathy/param-port"] = settings.port
 
             createAccount(root.accountProvider.name,
                 root.accountProvider.serviceNames[0],
