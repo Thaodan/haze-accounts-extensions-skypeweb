@@ -11,12 +11,13 @@ Column {
     property alias password: passwordField.text
     property bool acceptableInput: username != "" && password != ""
 
-    spacing: Theme.paddingLarge
     width: parent.width
 
     TextField {
         id: usernameField
+        visible: !editMode
         width: parent.width
+        inputMethodHints: Qt.ImhNoPredictiveText | Qt.ImhNoAutoUppercase
         errorHighlight: !text && acceptAttempted
 
         //: Placeholder text for XMPP username
@@ -39,6 +40,7 @@ Column {
 
     TextField {
         id: passwordField
+        visible: !editMode
         width: parent.width
         inputMethodHints: Qt.ImhNoPredictiveText | Qt.ImhNoAutoUppercase
         echoMode: TextInput.Password

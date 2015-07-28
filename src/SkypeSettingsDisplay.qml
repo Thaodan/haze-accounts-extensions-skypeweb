@@ -11,7 +11,7 @@ Column {
     property int accountId
     property alias acceptableInput: settings.acceptableInput
 
-    property string _defaultServiceName: "skypweb"
+    property string _defaultServiceName: "skypeweb"
     property bool _saving
 
     signal accountSaveCompleted(var success)
