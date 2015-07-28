@@ -9,7 +9,6 @@ AccountCreationAgent {
     property Item _settingsDialog
 
     initialPage: Dialog {
-        allowedOrientations: Orientation.Portrait
         canAccept: settings.acceptableInput
         acceptDestination: busyComponent
 
@@ -26,7 +25,7 @@ AccountCreationAgent {
                 }
 
                 Item {
-                    x: Theme.paddingLarge
+                    x: Theme.horizontalPageMargin
                     width: parent.width - x*2
                     height: icon.height + Theme.paddingLarge
 
@@ -73,7 +72,6 @@ AccountCreationAgent {
 
     AccountFactory {
         id: accountFactory
-
         function beginCreation() {
             var configuration = {}
 
@@ -105,7 +103,6 @@ AccountCreationAgent {
         Dialog {
             property alias accountId: settingsDisplay.accountId
 
-            allowedOrientations: Orientation.Portrait
             acceptDestination: root.endDestination
             acceptDestinationAction: root.endDestinationAction
             acceptDestinationProperties: root.endDestinationProperties

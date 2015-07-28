@@ -2,7 +2,7 @@
 <service id="skypeweb">
     <type>IM</type>
     <provider>skypeweb</provider>
-    <name>Skype IM</name>
+    <name>Skype</name>
     <icon>image://theme/icon-m-chat</icon>
 
     <template>
@@ -10,7 +10,6 @@
             <setting name="manager">haze</setting>
             <setting name="protocol">skypeweb</setting>
             <setting name="ConnectAutomatically" type="b">true</setting>
-            <setting name="param-resource">Jolla</setting>
         </group>
 
         <group name="auth">
